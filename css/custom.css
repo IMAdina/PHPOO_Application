@@ -1,0 +1,61 @@
+.custom
+{
+    width: 80px;
+}
+.ecran
+{
+    border: #222222 1px solid;
+}
+.logo
+{
+    width: 250px;
+}
+.cola, .fanta, .sprite
+{
+    display: block;
+    width: 20px;
+    height: 50px;
+}
+.produit1
+{
+    position:relative;
+    top: -39rem;
+    left:18.5rem;
+
+}
+.produit2
+{
+    position:relative;
+    top: -36rem;
+    left:20.4rem;
+
+}
+.produit3
+{
+    position:relative;
+    top: -49rem;
+    left:20.5rem;
+
+}
+.produit4
+{
+    position:relative;
+    top: -39rem;
+    left: 18.3rem;
+
+}
+.produit5
+{
+    position:relative;
+    top: -51rem;
+    left: 18.4rem;
+
+}
+.produit6
+{
+    position:relative;
+    top: -49rem;
+    left: 20.3rem;
+
+}
+
