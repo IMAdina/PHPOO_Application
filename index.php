@@ -7,10 +7,8 @@ require_once 'Distributeur.class.php';
 session_start();
 //si première visite on instancie un distributeur, sinon, on le récupère de la session
 if (isset($_SESSION['distributeur']) && !empty($_SESSION['distributeur'])) {
-    echo'ditributeur non empty';
     $distributeur = $_SESSION['distributeur'];
 } else {
-    echo ('distributeur null');
     $distributeur = new Distributeur();
 }
 require_once 'distributeurController.php';
