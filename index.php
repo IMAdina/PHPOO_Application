@@ -25,6 +25,7 @@ require_once 'distributeurController.php';
     </head>
 
     <body>
+        
         <div class="container">
             <!-- row 1 -->
             <header class="row">
@@ -75,7 +76,7 @@ require_once 'distributeurController.php';
             </div> 
             <div class="row">
             </div>
-
+            <div class="son"></div>
             <footer class="row">
 
                 <p>Distributeur Canettes PHP POO @ déc.2013</p>
@@ -84,5 +85,6 @@ require_once 'distributeurController.php';
         <!-- javascript -->
         <script src="http://code.jquery.com/jquery-latest.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/ajaxJqueryRequests.js"></script>
     </body>
 </html>
