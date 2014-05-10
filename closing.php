@@ -1,5 +1,4 @@
-<? session_start();
-?>
+
 <div class="col-lg-2 col-sm-2 ecran col-lg-push-1 col-sm-push-1">
     <?$distributeur->restituerMonnaie();
     if($distributeur->getRemboursement()->getFonds()!=0){?>

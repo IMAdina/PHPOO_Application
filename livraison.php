@@ -1,5 +1,3 @@
-<? session_start();
-?>
 <div class="col-lg-2 col-sm-2 ecran col-lg-push-1 col-sm-push-1">
     <?
     if (!isset($_GET['stockEpuise'])) {

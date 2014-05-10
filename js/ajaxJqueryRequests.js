@@ -1,5 +1,3 @@
-
-
 $(document).ready(function() {
 $(document).keypress(function(e) {
         if (e.keyCode == 13){
@@ -24,12 +22,13 @@ url: 'scripts/sonBg.php',
 
 });
         function applicationEtSon(result)
-        {
-        $(result).appendTo('.son');
-        }
+            {
+                $(result).appendTo('.son');
+            }
+        
         function applicationSansSon(result)
-        {
-        $('.son').html(result);
-        }
+            {
+                $('.son').html(result);
+            }
 });
 

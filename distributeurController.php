@@ -1,6 +1,4 @@
 <?php
-
-session_start();
 //traitement de l'action "constitutionCanetteCourante"(terme générique)
 //@param: Canette $canette
 //GET
